@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>FullScreen Backgrounds - fullPage.js</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="keywords" content="CreationImpossible Creation Impossible Kimberly Gysbrechts Segers Female Mobile developer back-end front-end webdeveloper">
+	<meta name="description" content="CreationImpossible Creation Impossible Kimberly Gysbrechts Segers, Female, Mobile developer, back-end, front-end, webdeveloper">
+
+
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+	<style>
+
+
+	
+
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['first', 'work', 'team','who'],
+				sectionsColor: ['', 'white', 'white'],
+				slidesNavigation: true,
+				css3: true
+			});
+		});
+	</script>
+
+</head>
+<body>
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="intro">
+		<img src="images/logo.png" />
+		<h1>Creation Impossible <br> < The impossible made possible ></h1>
+		<h2>Young, Enthusiastic and passionate Front-end / back-end developer</h2>
+		<p data-menuanchor="firstPage"><a href="#work"><img src="images/arrow.png"></a></p>	
+
+		</div>
+	</div>
+	<div class="section" id="section1">
+		<h1 class="workh1">Look at my work</h1>
+	    <div class="slide" id="slide1" data-anchor="Lock it">
+			<div class="work">
+				<h2>Lock It</h2>
+				<img src="images/ing.png" />
+				<p>Card security is a very serious matter. LockIt puts you in control of your own payment security. Lock your cards wherever you are. Put limits on spending depending on your location. A payment is going out without you knowing about it? Accept or ignore at will.</p>
+				<p data-menuanchor="secondPage"><a href="#team"><img src="images/arrow.png"></a></p>	
+			</div>
+		</div>
+
+	    <div class="slide" id="slide2" data-anchor="TMC Unicorn Antwerp">
+			<h2>TMC Unicorn Antwerp</h2>
+			<img src="images/tmc.png" />
+			<p>TMC Unicorn Antwerp is a motorcycle club in Boom. This is a redesign of the website.</p>
+			<p data-menuanchor="secondPage"><a href="#team"><img src="images/arrow.png"></a></p>	
+		</div>
+
+		<div class="slide" id="slide3" data-anchor="Dare Me">
+			<h2>Dare Me</h2>
+			<img src="images/dareme.png" />
+			<p>This mobile application makes people with the syndrome of Down more independent. It's intented to let them function more independent in the daily life. The application is a game that dares the user to accomplisch assignments (educational, sporting, creative and communicative). They can collect different trophies by fulfilling the assignments. A fun and useful application.</p>
+			<p data-menuanchor="secondPage"><a href="#team"><img src="images/arrow.png"></a></p>	
+		</div>	
+		<div class="slide" id="slide3" data-anchor="Dutch ++">
+			<h2>Dutch++</h2>
+			<img src="images/dutch.png" />
+			<p>This logo design was in the top 11 best designs that was chosen for the Dutch++ company. The aim of Dutch++ is to create the eLearning platform which provides learners of Dutch with knowledge and skills that they need for daily linguistic practice. The platform will offer an integrated package of information and exercises aiming at enhancing the learners' ability to deal with 'real Dutch' in interaction.</p>
+			<p data-menuanchor="secondPage"><a href="#team"><img src="images/arrow.png"></a></p>	
+		</div>
+		
+	</div>
+	<div class="section" id="section2">
+		<div class="team">
+			<h1>The team</h1>
+			<p data-menuanchor="3rdPage"><a href="#who"><img src="images/arrow.png"></a></p>	
+
+		</div>
+	</div>
+	<div class="section" id="section3">
+		<div class="who">
+			<h1>Who am i</h1>
+			<p data-menuanchor="4rdPage"><a href="#first"><img src="images/arrowup.png"></a></p>	
+
+		</div>
+	</div>
+
+</div>
+
+
+</body>
+</html>
